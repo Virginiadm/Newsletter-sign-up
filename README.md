@@ -47,6 +47,19 @@ Users should be able to:
 ## Built with
 - HTML5
 - CSS3
+- Boostrap
+  - Order classes
+  ```html
+  <!-- Use .order- classes for controlling the visual order of your content. -->
+  <div class="row">
+    <!-- First component on screen xs, second component on screens md -->
+    <div class="col-md-6 order-1 order-md-2"> ... </div>
+  
+    <!-- Second component on screen xs, first component on screens md -->
+    <div class="col-md-6 order-2 order-md-1"> ... </div>
+  </div>
+  ```
+  
 - JavaScript
 
 ## What challenges did you encounter, and how did you overcome them?
